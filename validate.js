@@ -36,12 +36,6 @@ validate.methods = (function() {
     })
   }
 
-  function hideAlert(){
-    $('.validate').on('submit',function(){
-      $('.alert').fadeOut();
-    })
-  }
-
   function translateValidate() {
     $.extend($.validator.messages, {
       required: "N&atilde;o pode ficar em branco",
